@@ -5,24 +5,27 @@ This repository constains a Pytorch implementation of the paper, titled "Pre-def
 
 
 If you find this project useful to you, please cite our work:
-Journal:
-========
-@ARTICLE{8988206, author={S. {Kundu} and M. {Nazemi} and M. {Pedram} and K. M. {Chugg} and B. {Peter}}, 
+
+@ARTICLE
+{8988206, 
+author={S. {Kundu} and M. {Nazemi} and M. {Pedram} and K. M. {Chugg} and B. {Peter}}, 
 journal={IEEE Transactions on Computers}, 
 title={Pre-defined Sparsity for Low-Complexity Convolutional Neural Networks}, 
 year={2020}, 
-volume={}, number={}, pages={1-1},}
+pages={1-1},}
 
 
 and 
 
-Conference:
-===========
 
-@INPROCEEDINGS{8919683, author={S. {Kundu} and S. {Prakash} and H. {Akrami} and P. A. {Beerel} and K. M. {Chugg}}, 
+
+@INPROCEEDINGS
+{8919683, 
+author={S. {Kundu} and S. {Prakash} and H. {Akrami} and P. A. {Beerel} and K. M. {Chugg}}, 
 booktitle={2019 57th Annual Allerton Conference on Communication, Control, and Computing (Allerton)}, 
 title={pSConv: A Pre-defined Sparse Kernel Based Convolution for Deep CNNs}, 
-year={2019}, volume={}, number={}, pages={100-107},}
+year={2019}, 
+pages={100-107},}
 
 
 
