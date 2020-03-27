@@ -1,7 +1,7 @@
 # Pre-defined-sparseCNN
 This repository constains a Pytorch implementation of the paper, titled "Pre-defined Sparsity for Low-Complexity Convolutional Neural Networks" (https://ieeexplore.ieee.org/document/8988206) which is published as a journal paper in IEEE transactions on Computer, 2020. The work is extended version of our conference paper: "pSConv: A Pre-defined Sparse Kernel Based Convolution for Deep CNNs" (https://ieeexplore.ieee.org/document/8919683) published in Allerton Conference , 2019.
 
-<img src="https://github.com/ksouvik52/Pre-defined-sparseCNN/tree/master/Images/periodic_sparse_dense_conv.jpg" height="200px" width="200px" >
+![](./Images/periodic_sparse_dense_conv.png =100x100)
 
 
 If you find this project useful to you, please cite our work:
