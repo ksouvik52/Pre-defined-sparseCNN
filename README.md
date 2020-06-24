@@ -7,6 +7,9 @@ The high energy cost of processing deep convolutional neural networks impedes th
 ### Proposed CNN model and results  
 <p align="center"><img width="20%" src="/Images/periodic_sparse_dense_conv.png" /><img width="70%"  src="/Images/ShuffleNet_MobileNetV2_compare_acc_flops_cifar_tiny.png" /><img width="20%" src="/Images/VGG_Tiny_ImageNet.png" /><img width="20%" src="/Images/VGG_CIFAR-10.png" /><img width="20%" src="/Images/Res_Tiny_ImageNet.png" /><img width="20%" src="/Images/Res_CIFAR-10.png" /></p><br/> 
 
+### Requirements
+All experiments were conducted in AWS p3.2x large instances (Nvidia V100 GPU) with Pytorch v1.3 and CUDA 9.2.
+
 ### Cite this work
 If you find this project useful to you, please cite our work:
 
@@ -19,6 +22,7 @@ If you find this project useful to you, please cite our work:
       number={7},
       pages={1045-1058},}
 and 
+
       @misc
       {8919683, 
       author    ={S. {Kundu} and S. {Prakash} and H. {Akrami} and P. A. {Beerel} and K. M. {Chugg}}, 
