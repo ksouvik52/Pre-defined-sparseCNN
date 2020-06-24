@@ -1,5 +1,5 @@
 ## Pre-Defined Sparsity for Low Complexity CNNs
-<p align="center"><img width="30%" src="/Images/IEEE_TC.jpg"/><img width="20%" src="/Images/allerton2019-350.jpg"/></p><br/> 
+<p align="center"><img width="30%" src="/Images/IEEE_TC.jpg"><img width="30%" src="/Images/allerton2019-350.jpg"></p><br/> 
 
 This repository constains official Pytorch implementation of the paper, titled [Pre-defined Sparsity for Low-Complexity Convolutional Neural Networks](https://ieeexplore.ieee.org/document/8988206) which is published as a journal paper in **IEEE transactions on Computer, 2020**. The work is extended version of our conference paper [pSConv: A Pre-defined Sparse Kernel Based Convolution for Deep CNNs](https://ieeexplore.ieee.org/document/8919683) published in **Allerton Conference , 2019**. Currently the repo contains example code for `VGG16` model on `CIFAR-10` classification task. 
 
