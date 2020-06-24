@@ -23,7 +23,7 @@ If you find this project useful to you, please cite our work:
       volume={69},
       number={7},
       pages={1045-1058},}
-and 
+and/or 
 
       @misc
       {8919683, 
