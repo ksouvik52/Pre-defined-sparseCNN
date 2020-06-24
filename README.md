@@ -1,5 +1,8 @@
 <h1 align="center">Pre-Defined Sparsity for Low Complexity CNNs</h1>
-This repository constains official Pytorch implementation of the paper, titled "Pre-defined Sparsity for Low-Complexity Convolutional Neural Networks" (https://ieeexplore.ieee.org/document/8988206) which is published as a journal paper in IEEE transactions on Computer, 2020. The work is extended version of our conference paper: "pSConv: A Pre-defined Sparse Kernel Based Convolution for Deep CNNs" (https://ieeexplore.ieee.org/document/8919683) published in Allerton Conference , 2019.
+This repository constains official Pytorch implementation of the paper, titled "Pre-defined Sparsity for Low-Complexity Convolutional Neural Networks" (https://ieeexplore.ieee.org/document/8988206) which is published as a journal paper in **IEEE transactions on Computer, 2020**. The work is extended version of our conference paper: "pSConv: A Pre-defined Sparse Kernel Based Convolution for Deep CNNs" (https://ieeexplore.ieee.org/document/8919683) published in **Allerton Conference , 2019**.
+
+### Abstract
+The high energy cost of processing deep convolutional neural networks impedes their ubiquitous deployment in energy-constrained platforms such as embedded systems and IoT devices. This article introduces convolutional layers with pre-defined sparse 2D kernels that have support sets that repeat periodically within and across filters. Due to the efficient storage of our periodic sparse kernels, the parameter savings can translate into considerable improvements in energy efficiency due to reduced DRAM accesses, thus promising significant improvements in the trade-off between energy consumption and accuracy for both training and inference. To evaluate this approach, we performed experiments with two widely accepted datasets, CIFAR-10 and Tiny ImageNet in sparse variants of the ResNet18 and VGG16 architectures. Compared to baseline models, our proposed sparse variants require up to ∼82% fewer model parameters with 5.6× fewer FLOPs with negligible loss in accuracy for ResNet18 on CIFAR-10. For VGG16 trained on Tiny ImageNet, our approach requires 5.8× fewer FLOPs and up to ∼83.3% fewer model parameters with a drop in top-5 (top-1) accuracy of only 1.2% ( ∼2.1% ). We also compared the performance of our proposed architectures with that of ShuffleNet and MobileNetV2. Using similar hyperparameters and FLOPs, our ResNet18 variants yield an average accuracy improvement of ∼2.8% .
 
 ### Proposed CNN model and results  
 <p align="center"><img width="20%" src="/Images/periodic_sparse_dense_conv.png" /><img width="70%"  src="/Images/ShuffleNet_MobileNetV2_compare_acc_flops_cifar_tiny.png" /><img width="20%" src="/Images/VGG_Tiny_ImageNet.png" /><img width="20%" src="/Images/VGG_CIFAR-10.png" /><img width="20%" src="/Images/Res_Tiny_ImageNet.png" /><img width="20%" src="/Images/Res_CIFAR-10.png" /></p><br/> 
@@ -15,12 +18,7 @@ If you find this project useful to you, please cite our work:
       volume={69},
       number={7},
       pages={1045-1058},}
-
-
 and 
-
-
-
       @misc
       {8919683, 
       author    ={S. {Kundu} and S. {Prakash} and H. {Akrami} and P. A. {Beerel} and K. M. {Chugg}}, 
