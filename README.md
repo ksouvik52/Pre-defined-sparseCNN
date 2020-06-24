@@ -3,7 +3,7 @@ This repository constains a Pytorch implementation of the paper, titled "Pre-def
 
 ![test image size](/Images/periodic_sparse_dense_conv.png)
 
-
+### Cite this work
 If you find this project useful to you, please cite our work:
 
       @misc
