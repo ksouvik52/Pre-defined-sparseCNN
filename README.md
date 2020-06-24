@@ -15,7 +15,7 @@ If you find this project useful to you, please cite our work:
 
       @misc
       {8988206, 
-      author  ={S. {Kundu} and M. {Nazemi} and M. {Pedram} and K. M. {Chugg} and B. {Peter}}, 
+      author  ={S. {Kundu} and M. {Nazemi} and M. {Pedram} and K. M. {Chugg} and P. A. {Beerel}}, 
       journal ={IEEE Transactions on Computers}, 
       title   ={Pre-defined Sparsity for Low-Complexity Convolutional Neural Networks}, 
       volume={69},
