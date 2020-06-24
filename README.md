@@ -5,14 +5,15 @@ This repository constains a Pytorch implementation of the paper, titled "Pre-def
 
 
 If you find this project useful to you, please cite our work:
-@misc{sanyal2019neural,
-    	title={Neural Network Training with Approximate Logarithmic Computations},
-    	author={Arnab Sanyal and Peter A. Beerel and Keith M. Chugg},
-    	year={2019},
-    	eprint={1910.09876},
-    	archivePrefix={arXiv},
-    	primaryClass={cs.LG}
-	}
+
+      @misc
+      {8988206, 
+      author  ={S. {Kundu} and M. {Nazemi} and M. {Pedram} and K. M. {Chugg} and B. {Peter}}, 
+      journal ={IEEE Transactions on Computers}, 
+      title   ={Pre-defined Sparsity for Low-Complexity Convolutional Neural Networks}, 
+      volume={69},
+      number={7},
+      pages={1045-1058},}
 
 
 and 
