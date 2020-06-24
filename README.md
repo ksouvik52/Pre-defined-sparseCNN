@@ -20,16 +20,12 @@ and
 
 
 
-@misc\
-{8919683, \
-author    ={S. {Kundu} and S. {Prakash} and H. {Akrami} and P. A. {Beerel} and K. M. {Chugg}}, \
-booktitle ={2019 57th Annual Allerton Conference on Communication, Control, and Computing (Allerton)}, \
-title     ={pSConv: A Pre-defined Sparse Kernel Based Convolution for Deep CNNs}, \
-year      ={2019}, \
-pages     ={100-107},}
+      @misc
+      {8919683, 
+      author    ={S. {Kundu} and S. {Prakash} and H. {Akrami} and P. A. {Beerel} and K. M. {Chugg}}, 
+      booktitle ={2019 57th Annual Allerton Conference on Communication, Control, and Computing (Allerton)}, 
+      title     ={pSConv: A Pre-defined Sparse Kernel Based Convolution for Deep CNNs}, 
+      year      ={2019}, 
+      pages     ={100-107},}
 
-
-
-
-
-A version of our work is also available at the arxiv link: https://arxiv.org/abs/2001.10710
+ arxiv version link: https://arxiv.org/abs/2001.10710
