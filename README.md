@@ -6,26 +6,27 @@ This repository constains a Pytorch implementation of the paper, titled "Pre-def
 
 If you find this project useful to you, please cite our work:
 \
-@ARTICLE\
+@misc\
 {8988206, \
-author={S. {Kundu} and M. {Nazemi} and M. {Pedram} and K. M. {Chugg} and B. {Peter}}, \
-journal={IEEE Transactions on Computers}, \
-title={Pre-defined Sparsity for Low-Complexity Convolutional Neural Networks}, \
-year={2020}, \
-pages={1-1},}
+author  ={S. {Kundu} and M. {Nazemi} and M. {Pedram} and K. M. {Chugg} and B. {Peter}}, \
+journal ={IEEE Transactions on Computers}, \
+title   ={Pre-defined Sparsity for Low-Complexity Convolutional Neural Networks}, \
+volume={69},\
+number={7},\
+pages={1045-1058},}
 
 
 and 
 
 
 
-@INPROCEEDINGS\
+@misc\
 {8919683, \
-author={S. {Kundu} and S. {Prakash} and H. {Akrami} and P. A. {Beerel} and K. M. {Chugg}}, \
-booktitle={2019 57th Annual Allerton Conference on Communication, Control, and Computing (Allerton)}, \
-title={pSConv: A Pre-defined Sparse Kernel Based Convolution for Deep CNNs}, \
-year={2019}, \
-pages={100-107},}
+author    ={S. {Kundu} and S. {Prakash} and H. {Akrami} and P. A. {Beerel} and K. M. {Chugg}}, \
+booktitle ={2019 57th Annual Allerton Conference on Communication, Control, and Computing (Allerton)}, \
+title     ={pSConv: A Pre-defined Sparse Kernel Based Convolution for Deep CNNs}, \
+year      ={2019}, \
+pages     ={100-107},}
 
 
 
