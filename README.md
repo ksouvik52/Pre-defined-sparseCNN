@@ -9,7 +9,7 @@ The high energy cost of processing deep convolutional neural networks impedes th
 ### Proposed CNN model and results  
 <p align="center"><img width="20%" src="/Images/periodic_sparse_dense_conv.png" /><img width="70%"  src="/Images/ShuffleNet_MobileNetV2_compare_acc_flops_cifar_tiny.png" /><img width="20%" src="/Images/VGG_Tiny_ImageNet.png" /><img width="20%" src="/Images/VGG_CIFAR-10.png" /><img width="20%" src="/Images/Res_Tiny_ImageNet.png" /><img width="20%" src="/Images/Res_CIFAR-10.png" /></p><br/> 
 
-### Requirements
+### Running the code
 * All experiments were conducted in AWS p3.2x large instances (Nvidia V100 GPU) with Pytorch `v1.3` and CUDA `v9.2`. 
 * Please install the ptflops package for FLOP counting: `pip install ptflops`
 * To train models for example `VGG16 pSC4` variant: `python VGG16_pSC4_with3x3_P8_cifar10_wrapper.py`
